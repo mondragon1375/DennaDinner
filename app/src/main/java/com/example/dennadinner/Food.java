@@ -15,10 +15,16 @@ public class Food {
 
     public static final Food[] breakfastfoods = {
             new Food("Eggs", "3 eggs 1 cheese, 1 meat omelet", 8.99, R.drawable.omelet),
-            new Food("Pancakes", "3 pancakes, choice of meat, potato", 7.95, R.drawable.pancakes),
-            new Food("Waffles", "Belgium waffles, whip cream, fresh fruit", 7.50, R.drawable.waffles)
-
+            new Food("Pancakes", "3 pancakes, choice of meat, potato", 7.99, R.drawable.pancakes),
+            new Food("Waffles", "Belgium waffles, whip cream, fresh fruit", 7.49, R.drawable.waffles)
     };
+
+    public static final Food[] lunchfoods = {
+            new Food("Sandwich", "2 slices of bread, ham, cheese, tomatoes, lettuce ", 7.69, R.drawable.sandwich),
+            new Food("Pizza", "Mozzarella cheese, flat crust, tomato sauce,", 8.29, R.drawable.pizza),
+            new Food("Burrito", "Large tortilla, refried beans, tomatoes, cheese, and choice of meat", 9.69, R.drawable.burrito)
+    };
+
 
     public String toString(){
         return foodName;

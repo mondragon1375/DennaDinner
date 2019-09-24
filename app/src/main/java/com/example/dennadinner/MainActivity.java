@@ -24,6 +24,12 @@ public class MainActivity extends AppCompatActivity {
                             Intent intent = new Intent(MainActivity.this,BreakfastChoicesActivity.class);
                             startActivity(intent);
                         }
+
+                        if (position == 1){
+                            Intent intent = new Intent(MainActivity.this,LunchChoicesActivity.class);
+                            startActivity(intent);
+                        }
+
                         //Later ad choices for positions 1 & 2 (lunch and dinner)
                     }
                 };
