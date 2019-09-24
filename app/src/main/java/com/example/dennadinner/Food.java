@@ -25,6 +25,12 @@ public class Food {
             new Food("Burrito", "Large tortilla, refried beans, tomatoes, cheese, and choice of meat", 9.69, R.drawable.burrito)
     };
 
+    public static final Food[] dinnerfoods = {
+            new Food("Chicken Dinner", "12 piece chicken dinner, including drumstick, wing, and breast", 7.69, R.drawable.sandwich),
+            new Food("Pasta Linguine", "Pasta linguine with choice of alfredo or tomato sauce", 8.29, R.drawable.pizza),
+            new Food("Deep-Dish Pizza", "Large pan crust, mozzarella, tomato sauce, and choice of meat", 9.69, R.drawable.burrito)
+    };
+
 
     public String toString(){
         return foodName;
